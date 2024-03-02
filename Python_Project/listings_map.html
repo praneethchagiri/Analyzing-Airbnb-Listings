@@ -1,0 +1,2171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a47076e16f24021306f096f9df32a5d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a47076e16f24021306f096f9df32a5d2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a47076e16f24021306f096f9df32a5d2 = L.map(
+                "map_a47076e16f24021306f096f9df32a5d2",
+                {
+                    center: [42.65735420319093, -73.77867355428221],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ee4846b28c3df36b5a9071c8ad424a1f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_ee4846b28c3df36b5a9071c8ad424a1f.addTo(map_a47076e16f24021306f096f9df32a5d2);
+    
+            var marker_10d587ae8747d8a9fb8838fbe7da10c6 = L.marker(
+                [42.66719, -73.8158],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_079009131d58af5552fb42fc3eced721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1846341bf8cb989fd50060e15d21264 = $(`<div id="html_f1846341bf8cb989fd50060e15d21264" style="width: 100.0%; height: 100.0%;">Latitude: 42.66719, Longitude: -73.8158, Price: $50.0, Room Type: Private room</div>`)[0];
+                popup_079009131d58af5552fb42fc3eced721.setContent(html_f1846341bf8cb989fd50060e15d21264);
+            
+        
+
+        marker_10d587ae8747d8a9fb8838fbe7da10c6.bindPopup(popup_079009131d58af5552fb42fc3eced721)
+        ;
+
+        
+    
+    
+            var marker_9b22e6f25f80fb16ceba87f06e88c812 = L.marker(
+                [42.65789, -73.7537],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_b1c97940260e60ba4277ddfb733e1f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df40cb04518610386d304b44831bc30d = $(`<div id="html_df40cb04518610386d304b44831bc30d" style="width: 100.0%; height: 100.0%;">Latitude: 42.65789, Longitude: -73.7537, Price: $70.0, Room Type: Entire home/apt</div>`)[0];
+                popup_b1c97940260e60ba4277ddfb733e1f66.setContent(html_df40cb04518610386d304b44831bc30d);
+            
+        
+
+        marker_9b22e6f25f80fb16ceba87f06e88c812.bindPopup(popup_b1c97940260e60ba4277ddfb733e1f66)
+        ;
+
+        
+    
+    
+            var marker_3ef05405e42b69a95fe15649c0d0f613 = L.marker(
+                [42.65222, -73.76724],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_8b2cec3b7b5a77ba813053c9f0a4bb77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_996cecf2b4e7ecb6c1bec3a981a2dfe8 = $(`<div id="html_996cecf2b4e7ecb6c1bec3a981a2dfe8" style="width: 100.0%; height: 100.0%;">Latitude: 42.65222, Longitude: -73.76724, Price: $115.0, Room Type: Entire home/apt</div>`)[0];
+                popup_8b2cec3b7b5a77ba813053c9f0a4bb77.setContent(html_996cecf2b4e7ecb6c1bec3a981a2dfe8);
+            
+        
+
+        marker_3ef05405e42b69a95fe15649c0d0f613.bindPopup(popup_8b2cec3b7b5a77ba813053c9f0a4bb77)
+        ;
+
+        
+    
+    
+            var marker_faadbec45c75a59415e2bb7ae27c44bb = L.marker(
+                [42.64615, -73.75966],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_ab1f72508060e70d6159a9e77ac6a0b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aae11e2f77d21c5e18826ba5f9d50096 = $(`<div id="html_aae11e2f77d21c5e18826ba5f9d50096" style="width: 100.0%; height: 100.0%;">Latitude: 42.64615, Longitude: -73.75966, Price: $68.0, Room Type: Entire home/apt</div>`)[0];
+                popup_ab1f72508060e70d6159a9e77ac6a0b2.setContent(html_aae11e2f77d21c5e18826ba5f9d50096);
+            
+        
+
+        marker_faadbec45c75a59415e2bb7ae27c44bb.bindPopup(popup_ab1f72508060e70d6159a9e77ac6a0b2)
+        ;
+
+        
+    
+    
+            var marker_826a07c2f2a1b9fc5a898d8dfe697687 = L.marker(
+                [42.65222, -73.76724],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_ca729741378ef0875c7f83d9d1d51020 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40cc5dcb9e9af6bd7d23d61392554f3a = $(`<div id="html_40cc5dcb9e9af6bd7d23d61392554f3a" style="width: 100.0%; height: 100.0%;">Latitude: 42.65222, Longitude: -73.76724, Price: $140.0, Room Type: Entire home/apt</div>`)[0];
+                popup_ca729741378ef0875c7f83d9d1d51020.setContent(html_40cc5dcb9e9af6bd7d23d61392554f3a);
+            
+        
+
+        marker_826a07c2f2a1b9fc5a898d8dfe697687.bindPopup(popup_ca729741378ef0875c7f83d9d1d51020)
+        ;
+
+        
+    
+    
+            var marker_bfdcf843c4728307a1ebde4cf599e9ef = L.marker(
+                [42.65901, -73.76647],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_df06c403e54828eafb0667d822a4f972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_766cebcad5b8f064ca5f6630b764365e = $(`<div id="html_766cebcad5b8f064ca5f6630b764365e" style="width: 100.0%; height: 100.0%;">Latitude: 42.65901, Longitude: -73.76647, Price: $67.0, Room Type: Entire home/apt</div>`)[0];
+                popup_df06c403e54828eafb0667d822a4f972.setContent(html_766cebcad5b8f064ca5f6630b764365e);
+            
+        
+
+        marker_bfdcf843c4728307a1ebde4cf599e9ef.bindPopup(popup_df06c403e54828eafb0667d822a4f972)
+        ;
+
+        
+    
+    
+            var marker_a482da20a91290e4285be3d08fddbd96 = L.marker(
+                [42.64484, -73.75851],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_483ecfdbf8ff7d75bd291b61f0ec87a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0975aa8b768e84c8efd44ca4a5a785c4 = $(`<div id="html_0975aa8b768e84c8efd44ca4a5a785c4" style="width: 100.0%; height: 100.0%;">Latitude: 42.64484, Longitude: -73.75851, Price: $190.0, Room Type: Private room</div>`)[0];
+                popup_483ecfdbf8ff7d75bd291b61f0ec87a0.setContent(html_0975aa8b768e84c8efd44ca4a5a785c4);
+            
+        
+
+        marker_a482da20a91290e4285be3d08fddbd96.bindPopup(popup_483ecfdbf8ff7d75bd291b61f0ec87a0)
+        ;
+
+        
+    
+    
+            var marker_d820be870dd958047be695bfe6282b30 = L.marker(
+                [42.66088, -73.78147],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_140451f120d8144432d2bef0b8908aca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a264dd1c6241fd16d87011186eb8943 = $(`<div id="html_8a264dd1c6241fd16d87011186eb8943" style="width: 100.0%; height: 100.0%;">Latitude: 42.66088, Longitude: -73.78147, Price: $459.0, Room Type: Entire home/apt</div>`)[0];
+                popup_140451f120d8144432d2bef0b8908aca.setContent(html_8a264dd1c6241fd16d87011186eb8943);
+            
+        
+
+        marker_d820be870dd958047be695bfe6282b30.bindPopup(popup_140451f120d8144432d2bef0b8908aca)
+        ;
+
+        
+    
+    
+            var marker_c18d31361d71e728f38de92ba4ef6c0f = L.marker(
+                [42.66063, -73.78115],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_7798ca0add9c60e51234904e77102fc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afec770404a3fa0519545511e58a15ce = $(`<div id="html_afec770404a3fa0519545511e58a15ce" style="width: 100.0%; height: 100.0%;">Latitude: 42.66063, Longitude: -73.78115, Price: $199.0, Room Type: Private room</div>`)[0];
+                popup_7798ca0add9c60e51234904e77102fc1.setContent(html_afec770404a3fa0519545511e58a15ce);
+            
+        
+
+        marker_c18d31361d71e728f38de92ba4ef6c0f.bindPopup(popup_7798ca0add9c60e51234904e77102fc1)
+        ;
+
+        
+    
+    
+            var marker_ab766781819927143ab405e993c4b81d = L.marker(
+                [42.65601, -73.7756],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_27a173098bf3fb6c090d4771af5bd4c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffbdbf01c17723e942525fcc2af5a7b0 = $(`<div id="html_ffbdbf01c17723e942525fcc2af5a7b0" style="width: 100.0%; height: 100.0%;">Latitude: 42.65601, Longitude: -73.7756, Price: $750.0, Room Type: Entire home/apt</div>`)[0];
+                popup_27a173098bf3fb6c090d4771af5bd4c8.setContent(html_ffbdbf01c17723e942525fcc2af5a7b0);
+            
+        
+
+        marker_ab766781819927143ab405e993c4b81d.bindPopup(popup_27a173098bf3fb6c090d4771af5bd4c8)
+        ;
+
+        
+    
+    
+            var marker_261dbb5fa136e2c5f70a8eb31c936c98 = L.marker(
+                [42.64603, -73.75986],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_7327ed66f9e18b979597762ac3b56ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40fe21c0c15ecb4e4d8dcb39b8321ef9 = $(`<div id="html_40fe21c0c15ecb4e4d8dcb39b8321ef9" style="width: 100.0%; height: 100.0%;">Latitude: 42.64603, Longitude: -73.75986, Price: $107.0, Room Type: Entire home/apt</div>`)[0];
+                popup_7327ed66f9e18b979597762ac3b56ee5.setContent(html_40fe21c0c15ecb4e4d8dcb39b8321ef9);
+            
+        
+
+        marker_261dbb5fa136e2c5f70a8eb31c936c98.bindPopup(popup_7327ed66f9e18b979597762ac3b56ee5)
+        ;
+
+        
+    
+    
+            var marker_17067180b06f140970c53716932dde01 = L.marker(
+                [42.65559, -73.76506],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_28bd3c08b97eaacb49bf6801f4afaebc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e75434568423dd9de800d91c24bbc6 = $(`<div id="html_e5e75434568423dd9de800d91c24bbc6" style="width: 100.0%; height: 100.0%;">Latitude: 42.65559, Longitude: -73.76506, Price: $89.0, Room Type: Entire home/apt</div>`)[0];
+                popup_28bd3c08b97eaacb49bf6801f4afaebc.setContent(html_e5e75434568423dd9de800d91c24bbc6);
+            
+        
+
+        marker_17067180b06f140970c53716932dde01.bindPopup(popup_28bd3c08b97eaacb49bf6801f4afaebc)
+        ;
+
+        
+    
+    
+            var marker_ca181b872ac82832b86980bb36a09ffc = L.marker(
+                [42.64734, -73.75851],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_59a3a39ab51a99b895045a4bdb0e2058 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb38c8af985b314abae6c1410b97a3c2 = $(`<div id="html_bb38c8af985b314abae6c1410b97a3c2" style="width: 100.0%; height: 100.0%;">Latitude: 42.64734, Longitude: -73.75851, Price: $61.0, Room Type: Private room</div>`)[0];
+                popup_59a3a39ab51a99b895045a4bdb0e2058.setContent(html_bb38c8af985b314abae6c1410b97a3c2);
+            
+        
+
+        marker_ca181b872ac82832b86980bb36a09ffc.bindPopup(popup_59a3a39ab51a99b895045a4bdb0e2058)
+        ;
+
+        
+    
+    
+            var marker_12168427db3e4e4aa87a2ba421192b81 = L.marker(
+                [42.66078, -73.80553],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_bea9e416281be186adc377569c40d716 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24dc2b9d9c56f10705510df8a74a23e5 = $(`<div id="html_24dc2b9d9c56f10705510df8a74a23e5" style="width: 100.0%; height: 100.0%;">Latitude: 42.66078, Longitude: -73.80553, Price: $50.0, Room Type: Entire home/apt</div>`)[0];
+                popup_bea9e416281be186adc377569c40d716.setContent(html_24dc2b9d9c56f10705510df8a74a23e5);
+            
+        
+
+        marker_12168427db3e4e4aa87a2ba421192b81.bindPopup(popup_bea9e416281be186adc377569c40d716)
+        ;
+
+        
+    
+    
+            var marker_ec43c4adeb9ef333b52fa420c25d7059 = L.marker(
+                [42.67567, -73.82438],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e40bd1d115a6bbd319fa4f642f520b8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_587bc4343ed27c58107a72d9465097d8 = $(`<div id="html_587bc4343ed27c58107a72d9465097d8" style="width: 100.0%; height: 100.0%;">Latitude: 42.67567, Longitude: -73.82438, Price: $215.0, Room Type: Entire home/apt</div>`)[0];
+                popup_e40bd1d115a6bbd319fa4f642f520b8c.setContent(html_587bc4343ed27c58107a72d9465097d8);
+            
+        
+
+        marker_ec43c4adeb9ef333b52fa420c25d7059.bindPopup(popup_e40bd1d115a6bbd319fa4f642f520b8c)
+        ;
+
+        
+    
+    
+            var marker_0945087658d3b3cd67b0ee28c6954cfb = L.marker(
+                [42.67583, -73.78297],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_56516412ec4d7ed355a12736addf0784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5094c04e079f134dd2eca805276315b = $(`<div id="html_c5094c04e079f134dd2eca805276315b" style="width: 100.0%; height: 100.0%;">Latitude: 42.67583, Longitude: -73.78297, Price: $47.0, Room Type: Private room</div>`)[0];
+                popup_56516412ec4d7ed355a12736addf0784.setContent(html_c5094c04e079f134dd2eca805276315b);
+            
+        
+
+        marker_0945087658d3b3cd67b0ee28c6954cfb.bindPopup(popup_56516412ec4d7ed355a12736addf0784)
+        ;
+
+        
+    
+    
+            var marker_f167ced0bd5e98de147a1e2aa27afbf4 = L.marker(
+                [42.65912, -73.78349],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_bdef2245d4a83be74553b4a6ce641d32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bb07f68baaec7d6a2bf32ebb4f72b4a = $(`<div id="html_2bb07f68baaec7d6a2bf32ebb4f72b4a" style="width: 100.0%; height: 100.0%;">Latitude: 42.65912, Longitude: -73.78349, Price: $45.0, Room Type: Private room</div>`)[0];
+                popup_bdef2245d4a83be74553b4a6ce641d32.setContent(html_2bb07f68baaec7d6a2bf32ebb4f72b4a);
+            
+        
+
+        marker_f167ced0bd5e98de147a1e2aa27afbf4.bindPopup(popup_bdef2245d4a83be74553b4a6ce641d32)
+        ;
+
+        
+    
+    
+            var marker_6994232a5d458df3513ebdf9fec76b3f = L.marker(
+                [42.65154, -73.76867],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_f7e8eba3a5c8483f7afd4f4d1f08a2ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_287da6564bedfed01891a8ffccf85a57 = $(`<div id="html_287da6564bedfed01891a8ffccf85a57" style="width: 100.0%; height: 100.0%;">Latitude: 42.65154, Longitude: -73.76867, Price: $50.0, Room Type: Private room</div>`)[0];
+                popup_f7e8eba3a5c8483f7afd4f4d1f08a2ce.setContent(html_287da6564bedfed01891a8ffccf85a57);
+            
+        
+
+        marker_6994232a5d458df3513ebdf9fec76b3f.bindPopup(popup_f7e8eba3a5c8483f7afd4f4d1f08a2ce)
+        ;
+
+        
+    
+    
+            var marker_cc782f3742c34677e57c4bec9a14bb84 = L.marker(
+                [42.66972, -73.82753],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_805fcdbd4c535363aead4bbf3c14c0bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7660d24f5e255a8faa637605cba53b7 = $(`<div id="html_b7660d24f5e255a8faa637605cba53b7" style="width: 100.0%; height: 100.0%;">Latitude: 42.66972, Longitude: -73.82753, Price: $219.0, Room Type: Entire home/apt</div>`)[0];
+                popup_805fcdbd4c535363aead4bbf3c14c0bc.setContent(html_b7660d24f5e255a8faa637605cba53b7);
+            
+        
+
+        marker_cc782f3742c34677e57c4bec9a14bb84.bindPopup(popup_805fcdbd4c535363aead4bbf3c14c0bc)
+        ;
+
+        
+    
+    
+            var marker_8d9085cbefe58be1bc271c564aaeb63a = L.marker(
+                [42.68769, -73.79664],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_19cad513aa0d6c438dab57507cfeb842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_517cd176063901a3edb61acebbdb93e9 = $(`<div id="html_517cd176063901a3edb61acebbdb93e9" style="width: 100.0%; height: 100.0%;">Latitude: 42.68769, Longitude: -73.79664, Price: $60.0, Room Type: Private room</div>`)[0];
+                popup_19cad513aa0d6c438dab57507cfeb842.setContent(html_517cd176063901a3edb61acebbdb93e9);
+            
+        
+
+        marker_8d9085cbefe58be1bc271c564aaeb63a.bindPopup(popup_19cad513aa0d6c438dab57507cfeb842)
+        ;
+
+        
+    
+    
+            var marker_5aaad45b952ae070031f5293ba561438 = L.marker(
+                [42.65726, -73.78219],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_6039edebae8463e7a13061f3850bef54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1790dddc2130651cd7249c90b8d1eab0 = $(`<div id="html_1790dddc2130651cd7249c90b8d1eab0" style="width: 100.0%; height: 100.0%;">Latitude: 42.65726, Longitude: -73.78219, Price: $50.0, Room Type: Private room</div>`)[0];
+                popup_6039edebae8463e7a13061f3850bef54.setContent(html_1790dddc2130651cd7249c90b8d1eab0);
+            
+        
+
+        marker_5aaad45b952ae070031f5293ba561438.bindPopup(popup_6039edebae8463e7a13061f3850bef54)
+        ;
+
+        
+    
+    
+            var marker_bce2a1ab2f3d61d8a243537a5869bb00 = L.marker(
+                [42.65863, -73.76657],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_c07667ff5d4c520931cfd172ea62f174 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eed3f6ecbde1f8b68d827f945abda08 = $(`<div id="html_1eed3f6ecbde1f8b68d827f945abda08" style="width: 100.0%; height: 100.0%;">Latitude: 42.65863, Longitude: -73.76657, Price: $55.0, Room Type: Entire home/apt</div>`)[0];
+                popup_c07667ff5d4c520931cfd172ea62f174.setContent(html_1eed3f6ecbde1f8b68d827f945abda08);
+            
+        
+
+        marker_bce2a1ab2f3d61d8a243537a5869bb00.bindPopup(popup_c07667ff5d4c520931cfd172ea62f174)
+        ;
+
+        
+    
+    
+            var marker_187220ef3ffe2024b64b5a3ee1eb7be1 = L.marker(
+                [42.673512, -73.819679],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_36f9304847b9a4273c05bf36abd67aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c72c8c29c0fa1526b6adddf66fcc0c19 = $(`<div id="html_c72c8c29c0fa1526b6adddf66fcc0c19" style="width: 100.0%; height: 100.0%;">Latitude: 42.673512, Longitude: -73.819679, Price: $255.0, Room Type: Entire home/apt</div>`)[0];
+                popup_36f9304847b9a4273c05bf36abd67aa2.setContent(html_c72c8c29c0fa1526b6adddf66fcc0c19);
+            
+        
+
+        marker_187220ef3ffe2024b64b5a3ee1eb7be1.bindPopup(popup_36f9304847b9a4273c05bf36abd67aa2)
+        ;
+
+        
+    
+    
+            var marker_e305a1c5bae3bad3c9586ba5b9f41d53 = L.marker(
+                [42.65651, -73.77887],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_762b7ac4e39573822eb6d00ad8652678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87029ecb1b7328909cae98ba787add3d = $(`<div id="html_87029ecb1b7328909cae98ba787add3d" style="width: 100.0%; height: 100.0%;">Latitude: 42.65651, Longitude: -73.77887, Price: $57.0, Room Type: Private room</div>`)[0];
+                popup_762b7ac4e39573822eb6d00ad8652678.setContent(html_87029ecb1b7328909cae98ba787add3d);
+            
+        
+
+        marker_e305a1c5bae3bad3c9586ba5b9f41d53.bindPopup(popup_762b7ac4e39573822eb6d00ad8652678)
+        ;
+
+        
+    
+    
+            var marker_66571b2d0f9ae1824a293f01ec6346e9 = L.marker(
+                [42.66075, -73.80605],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_54abea72d3722a3c45eaf144ac709eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20250b41ae4e12b483e921f99936bf9d = $(`<div id="html_20250b41ae4e12b483e921f99936bf9d" style="width: 100.0%; height: 100.0%;">Latitude: 42.66075, Longitude: -73.80605, Price: $70.0, Room Type: Entire home/apt</div>`)[0];
+                popup_54abea72d3722a3c45eaf144ac709eb4.setContent(html_20250b41ae4e12b483e921f99936bf9d);
+            
+        
+
+        marker_66571b2d0f9ae1824a293f01ec6346e9.bindPopup(popup_54abea72d3722a3c45eaf144ac709eb4)
+        ;
+
+        
+    
+    
+            var marker_8ec28c37bac12908b8d3a6ec5469602b = L.marker(
+                [42.67614, -73.78169],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_fa90eec43787f70721a7d76436ee7117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5429844f1520f6b7358d992aff1b2343 = $(`<div id="html_5429844f1520f6b7358d992aff1b2343" style="width: 100.0%; height: 100.0%;">Latitude: 42.67614, Longitude: -73.78169, Price: $44.0, Room Type: Private room</div>`)[0];
+                popup_fa90eec43787f70721a7d76436ee7117.setContent(html_5429844f1520f6b7358d992aff1b2343);
+            
+        
+
+        marker_8ec28c37bac12908b8d3a6ec5469602b.bindPopup(popup_fa90eec43787f70721a7d76436ee7117)
+        ;
+
+        
+    
+    
+            var marker_958307f3698f816d951027933cb75ac9 = L.marker(
+                [42.6584, -73.78309],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_5d00f9558f07190835d289db0e45d01a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3fb0abecf182d252c17f2d205aa3f0e = $(`<div id="html_b3fb0abecf182d252c17f2d205aa3f0e" style="width: 100.0%; height: 100.0%;">Latitude: 42.6584, Longitude: -73.78309, Price: $45.0, Room Type: Private room</div>`)[0];
+                popup_5d00f9558f07190835d289db0e45d01a.setContent(html_b3fb0abecf182d252c17f2d205aa3f0e);
+            
+        
+
+        marker_958307f3698f816d951027933cb75ac9.bindPopup(popup_5d00f9558f07190835d289db0e45d01a)
+        ;
+
+        
+    
+    
+            var marker_bf4838ed8a0eb99449970c1f7f5a90ee = L.marker(
+                [42.65729, -73.80321],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_1b7ede2b622d3b71e2a21efd65a9306c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e32c495b09344b90876eb6a9fb07e9c = $(`<div id="html_7e32c495b09344b90876eb6a9fb07e9c" style="width: 100.0%; height: 100.0%;">Latitude: 42.65729, Longitude: -73.80321, Price: $62.0, Room Type: Private room</div>`)[0];
+                popup_1b7ede2b622d3b71e2a21efd65a9306c.setContent(html_7e32c495b09344b90876eb6a9fb07e9c);
+            
+        
+
+        marker_bf4838ed8a0eb99449970c1f7f5a90ee.bindPopup(popup_1b7ede2b622d3b71e2a21efd65a9306c)
+        ;
+
+        
+    
+    
+            var marker_3dfa69b3f6afdeee14106e1b4cd19d2b = L.marker(
+                [42.67637, -73.82395],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_ca94f38f707209ff71208bc59abf9606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7879e3e046eec5dd2cddc5567692fbf = $(`<div id="html_f7879e3e046eec5dd2cddc5567692fbf" style="width: 100.0%; height: 100.0%;">Latitude: 42.67637, Longitude: -73.82395, Price: $555.0, Room Type: Entire home/apt</div>`)[0];
+                popup_ca94f38f707209ff71208bc59abf9606.setContent(html_f7879e3e046eec5dd2cddc5567692fbf);
+            
+        
+
+        marker_3dfa69b3f6afdeee14106e1b4cd19d2b.bindPopup(popup_ca94f38f707209ff71208bc59abf9606)
+        ;
+
+        
+    
+    
+            var marker_4397bd429659a4d5e31164b6458b0acd = L.marker(
+                [42.65312, -73.78161],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_025af0dc9dca9d8a29019bcf232c8b7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ff9abf0ec3d5c0355a33d3b2e54c4a1 = $(`<div id="html_0ff9abf0ec3d5c0355a33d3b2e54c4a1" style="width: 100.0%; height: 100.0%;">Latitude: 42.65312, Longitude: -73.78161, Price: $70.0, Room Type: Private room</div>`)[0];
+                popup_025af0dc9dca9d8a29019bcf232c8b7a.setContent(html_0ff9abf0ec3d5c0355a33d3b2e54c4a1);
+            
+        
+
+        marker_4397bd429659a4d5e31164b6458b0acd.bindPopup(popup_025af0dc9dca9d8a29019bcf232c8b7a)
+        ;
+
+        
+    
+    
+            var marker_5243fd9e41fa68880189995ff04fd1f3 = L.marker(
+                [42.6585, -73.78414],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_4516b345b51f60192424dc86b102dd62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eca8018ff463d495a22c366cea0e404c = $(`<div id="html_eca8018ff463d495a22c366cea0e404c" style="width: 100.0%; height: 100.0%;">Latitude: 42.6585, Longitude: -73.78414, Price: $50.0, Room Type: Private room</div>`)[0];
+                popup_4516b345b51f60192424dc86b102dd62.setContent(html_eca8018ff463d495a22c366cea0e404c);
+            
+        
+
+        marker_5243fd9e41fa68880189995ff04fd1f3.bindPopup(popup_4516b345b51f60192424dc86b102dd62)
+        ;
+
+        
+    
+    
+            var marker_12634798b5154b1c4904b1f1467829e3 = L.marker(
+                [42.6436, -73.75887],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_b91b2ecd227eddf023110217381f519b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cfecb8658137588f8430b36ae6db9f1 = $(`<div id="html_9cfecb8658137588f8430b36ae6db9f1" style="width: 100.0%; height: 100.0%;">Latitude: 42.6436, Longitude: -73.75887, Price: $169.0, Room Type: Private room</div>`)[0];
+                popup_b91b2ecd227eddf023110217381f519b.setContent(html_9cfecb8658137588f8430b36ae6db9f1);
+            
+        
+
+        marker_12634798b5154b1c4904b1f1467829e3.bindPopup(popup_b91b2ecd227eddf023110217381f519b)
+        ;
+
+        
+    
+    
+            var marker_7bea53289c2de9e038de03cf16bb4ffb = L.marker(
+                [42.65846, -73.80201],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e98650c9f4d77d5192be3ad7fc01925b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d917386fb88efd35e16914493f412ef7 = $(`<div id="html_d917386fb88efd35e16914493f412ef7" style="width: 100.0%; height: 100.0%;">Latitude: 42.65846, Longitude: -73.80201, Price: $60.0, Room Type: Private room</div>`)[0];
+                popup_e98650c9f4d77d5192be3ad7fc01925b.setContent(html_d917386fb88efd35e16914493f412ef7);
+            
+        
+
+        marker_7bea53289c2de9e038de03cf16bb4ffb.bindPopup(popup_e98650c9f4d77d5192be3ad7fc01925b)
+        ;
+
+        
+    
+    
+            var marker_6719ea5fe9f38f3a1cfe4cdcafe9f9f3 = L.marker(
+                [42.64355, -73.75712],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_025b046e4a9041e31b6447e988d08ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5425b2eb92dc142bfe02549912683431 = $(`<div id="html_5425b2eb92dc142bfe02549912683431" style="width: 100.0%; height: 100.0%;">Latitude: 42.64355, Longitude: -73.75712, Price: $299.0, Room Type: Private room</div>`)[0];
+                popup_025b046e4a9041e31b6447e988d08ec9.setContent(html_5425b2eb92dc142bfe02549912683431);
+            
+        
+
+        marker_6719ea5fe9f38f3a1cfe4cdcafe9f9f3.bindPopup(popup_025b046e4a9041e31b6447e988d08ec9)
+        ;
+
+        
+    
+    
+            var marker_ababa9ee15e9221e6331aff194feba17 = L.marker(
+                [42.65846, -73.80201],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_939b0d71ccab6857cf5cbfada1b3f76b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fd3f86913e55fff166bba6b3fe4b649 = $(`<div id="html_3fd3f86913e55fff166bba6b3fe4b649" style="width: 100.0%; height: 100.0%;">Latitude: 42.65846, Longitude: -73.80201, Price: $80.0, Room Type: Private room</div>`)[0];
+                popup_939b0d71ccab6857cf5cbfada1b3f76b.setContent(html_3fd3f86913e55fff166bba6b3fe4b649);
+            
+        
+
+        marker_ababa9ee15e9221e6331aff194feba17.bindPopup(popup_939b0d71ccab6857cf5cbfada1b3f76b)
+        ;
+
+        
+    
+    
+            var marker_5df9c4b78022fa450e62f2ea7962f710 = L.marker(
+                [42.65846, -73.80201],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_df8c89215c52f67083714a97ec286be6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44575ecbf57ed99b9f52cb3913a022a7 = $(`<div id="html_44575ecbf57ed99b9f52cb3913a022a7" style="width: 100.0%; height: 100.0%;">Latitude: 42.65846, Longitude: -73.80201, Price: $80.0, Room Type: Private room</div>`)[0];
+                popup_df8c89215c52f67083714a97ec286be6.setContent(html_44575ecbf57ed99b9f52cb3913a022a7);
+            
+        
+
+        marker_5df9c4b78022fa450e62f2ea7962f710.bindPopup(popup_df8c89215c52f67083714a97ec286be6)
+        ;
+
+        
+    
+    
+            var marker_71b8c0821e2a8f942b22a9f399538be6 = L.marker(
+                [42.65846, -73.80201],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_4fc1c3848c25c4c54143d16b87326782 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9250a94bef1a0c5f343e58c35fe5585 = $(`<div id="html_b9250a94bef1a0c5f343e58c35fe5585" style="width: 100.0%; height: 100.0%;">Latitude: 42.65846, Longitude: -73.80201, Price: $80.0, Room Type: Private room</div>`)[0];
+                popup_4fc1c3848c25c4c54143d16b87326782.setContent(html_b9250a94bef1a0c5f343e58c35fe5585);
+            
+        
+
+        marker_71b8c0821e2a8f942b22a9f399538be6.bindPopup(popup_4fc1c3848c25c4c54143d16b87326782)
+        ;
+
+        
+    
+    
+            var marker_c1d9f6946a1ee705a8cb2af08630bdcb = L.marker(
+                [42.65846, -73.80201],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_12a5fd7f60c8b77b39a0425c4c417faf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_428ce4ff0691e19c0d77690056576fcf = $(`<div id="html_428ce4ff0691e19c0d77690056576fcf" style="width: 100.0%; height: 100.0%;">Latitude: 42.65846, Longitude: -73.80201, Price: $60.0, Room Type: Private room</div>`)[0];
+                popup_12a5fd7f60c8b77b39a0425c4c417faf.setContent(html_428ce4ff0691e19c0d77690056576fcf);
+            
+        
+
+        marker_c1d9f6946a1ee705a8cb2af08630bdcb.bindPopup(popup_12a5fd7f60c8b77b39a0425c4c417faf)
+        ;
+
+        
+    
+    
+            var marker_a383ecdd79b4c16fdfc0a83881e258cc = L.marker(
+                [42.65846, -73.80201],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_311e9213a4773a202644fa1a098026e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6296ef911c654e8f1079236d113ee1ed = $(`<div id="html_6296ef911c654e8f1079236d113ee1ed" style="width: 100.0%; height: 100.0%;">Latitude: 42.65846, Longitude: -73.80201, Price: $275.0, Room Type: Entire home/apt</div>`)[0];
+                popup_311e9213a4773a202644fa1a098026e7.setContent(html_6296ef911c654e8f1079236d113ee1ed);
+            
+        
+
+        marker_a383ecdd79b4c16fdfc0a83881e258cc.bindPopup(popup_311e9213a4773a202644fa1a098026e7)
+        ;
+
+        
+    
+    
+            var marker_b9ee9ceeb24ac6e44cd8b5082831c3d0 = L.marker(
+                [42.675, -73.82382],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_617a7c80f935dbdfe03589b3951d1869 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6e3147b55975cc42fd14fa299baae0 = $(`<div id="html_9d6e3147b55975cc42fd14fa299baae0" style="width: 100.0%; height: 100.0%;">Latitude: 42.675, Longitude: -73.82382, Price: $196.0, Room Type: Entire home/apt</div>`)[0];
+                popup_617a7c80f935dbdfe03589b3951d1869.setContent(html_9d6e3147b55975cc42fd14fa299baae0);
+            
+        
+
+        marker_b9ee9ceeb24ac6e44cd8b5082831c3d0.bindPopup(popup_617a7c80f935dbdfe03589b3951d1869)
+        ;
+
+        
+    
+    
+            var marker_c4055d85eae9c0bcc1f0039b1be594aa = L.marker(
+                [42.64939, -73.76865],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_90ae26a9f1b3da514e6cc2b1a6902b9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccfb35feadff131aa64808f4766ef7db = $(`<div id="html_ccfb35feadff131aa64808f4766ef7db" style="width: 100.0%; height: 100.0%;">Latitude: 42.64939, Longitude: -73.76865, Price: $129.0, Room Type: Entire home/apt</div>`)[0];
+                popup_90ae26a9f1b3da514e6cc2b1a6902b9d.setContent(html_ccfb35feadff131aa64808f4766ef7db);
+            
+        
+
+        marker_c4055d85eae9c0bcc1f0039b1be594aa.bindPopup(popup_90ae26a9f1b3da514e6cc2b1a6902b9d)
+        ;
+
+        
+    
+    
+            var marker_34b0c546c15ea9547e35d302dff762c3 = L.marker(
+                [42.65532, -73.78244],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_674093c0eb3e38cefa8c930f0bbd558b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19e212e827c44fd9863f166a971f8c37 = $(`<div id="html_19e212e827c44fd9863f166a971f8c37" style="width: 100.0%; height: 100.0%;">Latitude: 42.65532, Longitude: -73.78244, Price: $85.0, Room Type: Entire home/apt</div>`)[0];
+                popup_674093c0eb3e38cefa8c930f0bbd558b.setContent(html_19e212e827c44fd9863f166a971f8c37);
+            
+        
+
+        marker_34b0c546c15ea9547e35d302dff762c3.bindPopup(popup_674093c0eb3e38cefa8c930f0bbd558b)
+        ;
+
+        
+    
+    
+            var marker_690ac34465789b4c6447018c8c544eec = L.marker(
+                [42.66565, -73.77975],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_66c1f6ba53d13121e5c18dbc4117a5cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c53c4239d3ddbad605d5486fa4033f = $(`<div id="html_f0c53c4239d3ddbad605d5486fa4033f" style="width: 100.0%; height: 100.0%;">Latitude: 42.66565, Longitude: -73.77975, Price: $40.0, Room Type: Private room</div>`)[0];
+                popup_66c1f6ba53d13121e5c18dbc4117a5cf.setContent(html_f0c53c4239d3ddbad605d5486fa4033f);
+            
+        
+
+        marker_690ac34465789b4c6447018c8c544eec.bindPopup(popup_66c1f6ba53d13121e5c18dbc4117a5cf)
+        ;
+
+        
+    
+    
+            var marker_738432c53e4185c470845d23a51f676e = L.marker(
+                [42.65372, -73.78244],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e8024744f8233b27fac3cf9fba272741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03a1b0d94fd7b0a78f0a5a7ee3e76682 = $(`<div id="html_03a1b0d94fd7b0a78f0a5a7ee3e76682" style="width: 100.0%; height: 100.0%;">Latitude: 42.65372, Longitude: -73.78244, Price: $85.0, Room Type: Entire home/apt</div>`)[0];
+                popup_e8024744f8233b27fac3cf9fba272741.setContent(html_03a1b0d94fd7b0a78f0a5a7ee3e76682);
+            
+        
+
+        marker_738432c53e4185c470845d23a51f676e.bindPopup(popup_e8024744f8233b27fac3cf9fba272741)
+        ;
+
+        
+    
+    
+            var marker_6f86e06273b9836cefed4b15f515ce3a = L.marker(
+                [42.67547, -73.82402],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_7f87e97767335b48ad9bab54e3034a38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e90dd1a5649cc593d60c5edc40b7ee83 = $(`<div id="html_e90dd1a5649cc593d60c5edc40b7ee83" style="width: 100.0%; height: 100.0%;">Latitude: 42.67547, Longitude: -73.82402, Price: $557.0, Room Type: Entire home/apt</div>`)[0];
+                popup_7f87e97767335b48ad9bab54e3034a38.setContent(html_e90dd1a5649cc593d60c5edc40b7ee83);
+            
+        
+
+        marker_6f86e06273b9836cefed4b15f515ce3a.bindPopup(popup_7f87e97767335b48ad9bab54e3034a38)
+        ;
+
+        
+    
+    
+            var marker_68cf0f6f07deaf6db669d5bf11c7684f = L.marker(
+                [42.66045, -73.77833],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e38a57abcfdf81899114fd267d7d1745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e1815118abe36bfe46e7e5fb64fa490 = $(`<div id="html_7e1815118abe36bfe46e7e5fb64fa490" style="width: 100.0%; height: 100.0%;">Latitude: 42.66045, Longitude: -73.77833, Price: $76.0, Room Type: Entire home/apt</div>`)[0];
+                popup_e38a57abcfdf81899114fd267d7d1745.setContent(html_7e1815118abe36bfe46e7e5fb64fa490);
+            
+        
+
+        marker_68cf0f6f07deaf6db669d5bf11c7684f.bindPopup(popup_e38a57abcfdf81899114fd267d7d1745)
+        ;
+
+        
+    
+    
+            var marker_f43db384fb10dc3e22e09e58fc464aaa = L.marker(
+                [42.66572, -73.77834],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_329fe8d35792e932aa0959b65207e29b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ea770e758f34821ff25ecc367c1f53 = $(`<div id="html_c1ea770e758f34821ff25ecc367c1f53" style="width: 100.0%; height: 100.0%;">Latitude: 42.66572, Longitude: -73.77834, Price: $35.0, Room Type: Private room</div>`)[0];
+                popup_329fe8d35792e932aa0959b65207e29b.setContent(html_c1ea770e758f34821ff25ecc367c1f53);
+            
+        
+
+        marker_f43db384fb10dc3e22e09e58fc464aaa.bindPopup(popup_329fe8d35792e932aa0959b65207e29b)
+        ;
+
+        
+    
+    
+            var marker_9137a2b0986ef2d9257456eebf3eb038 = L.marker(
+                [42.66703, -73.77842],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_dd9a7e57af65a3d3e13c6075bc15c941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84546005aabf1a2e6842921e42070270 = $(`<div id="html_84546005aabf1a2e6842921e42070270" style="width: 100.0%; height: 100.0%;">Latitude: 42.66703, Longitude: -73.77842, Price: $35.0, Room Type: Private room</div>`)[0];
+                popup_dd9a7e57af65a3d3e13c6075bc15c941.setContent(html_84546005aabf1a2e6842921e42070270);
+            
+        
+
+        marker_9137a2b0986ef2d9257456eebf3eb038.bindPopup(popup_dd9a7e57af65a3d3e13c6075bc15c941)
+        ;
+
+        
+    
+    
+            var marker_953f9a1017b9124a74906cb57899851e = L.marker(
+                [42.65501, -73.78122],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_3e4ce49bddf8f53af547c6791568c30d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_925136e687015fc91daa487edd3c64a7 = $(`<div id="html_925136e687015fc91daa487edd3c64a7" style="width: 100.0%; height: 100.0%;">Latitude: 42.65501, Longitude: -73.78122, Price: $60.0, Room Type: Private room</div>`)[0];
+                popup_3e4ce49bddf8f53af547c6791568c30d.setContent(html_925136e687015fc91daa487edd3c64a7);
+            
+        
+
+        marker_953f9a1017b9124a74906cb57899851e.bindPopup(popup_3e4ce49bddf8f53af547c6791568c30d)
+        ;
+
+        
+    
+    
+            var marker_0f9288fabf9ba526194bb38d6b32a95b = L.marker(
+                [42.64717, -73.77135],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_db29e494215c13b2749eca0c186546c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b70668959d1617a48739e625807a7e20 = $(`<div id="html_b70668959d1617a48739e625807a7e20" style="width: 100.0%; height: 100.0%;">Latitude: 42.64717, Longitude: -73.77135, Price: $92.0, Room Type: Entire home/apt</div>`)[0];
+                popup_db29e494215c13b2749eca0c186546c0.setContent(html_b70668959d1617a48739e625807a7e20);
+            
+        
+
+        marker_0f9288fabf9ba526194bb38d6b32a95b.bindPopup(popup_db29e494215c13b2749eca0c186546c0)
+        ;
+
+        
+    
+    
+            var marker_7bf594d3ebf2c67a15258db10bd51ae6 = L.marker(
+                [42.65975, -73.81196],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_a70344c1501c13dc22de822ad6b6466c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ccfebdd1c5be251c277941c3dbedaea = $(`<div id="html_9ccfebdd1c5be251c277941c3dbedaea" style="width: 100.0%; height: 100.0%;">Latitude: 42.65975, Longitude: -73.81196, Price: $75.0, Room Type: Private room</div>`)[0];
+                popup_a70344c1501c13dc22de822ad6b6466c.setContent(html_9ccfebdd1c5be251c277941c3dbedaea);
+            
+        
+
+        marker_7bf594d3ebf2c67a15258db10bd51ae6.bindPopup(popup_a70344c1501c13dc22de822ad6b6466c)
+        ;
+
+        
+    
+    
+            var marker_54ee4c2be456ded4fdcbce08d456d247 = L.marker(
+                [42.65431, -73.78178],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_91de4e26bfa03121be8af368bb764e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92080b6e04b1da37aec4b7fe42d55e5f = $(`<div id="html_92080b6e04b1da37aec4b7fe42d55e5f" style="width: 100.0%; height: 100.0%;">Latitude: 42.65431, Longitude: -73.78178, Price: $60.0, Room Type: Private room</div>`)[0];
+                popup_91de4e26bfa03121be8af368bb764e0a.setContent(html_92080b6e04b1da37aec4b7fe42d55e5f);
+            
+        
+
+        marker_54ee4c2be456ded4fdcbce08d456d247.bindPopup(popup_91de4e26bfa03121be8af368bb764e0a)
+        ;
+
+        
+    
+    
+            var marker_4fcdc6bbacf6b47eaf750c7f5bf069a4 = L.marker(
+                [42.6477, -73.7714],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_dab84a7acaa0ffffcae7a8a5c291a5a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f33269836988eac759434261e23531b = $(`<div id="html_3f33269836988eac759434261e23531b" style="width: 100.0%; height: 100.0%;">Latitude: 42.6477, Longitude: -73.7714, Price: $73.0, Room Type: Entire home/apt</div>`)[0];
+                popup_dab84a7acaa0ffffcae7a8a5c291a5a6.setContent(html_3f33269836988eac759434261e23531b);
+            
+        
+
+        marker_4fcdc6bbacf6b47eaf750c7f5bf069a4.bindPopup(popup_dab84a7acaa0ffffcae7a8a5c291a5a6)
+        ;
+
+        
+    
+    
+            var marker_85509b990bd2afbfdb27c5309f746323 = L.marker(
+                [42.65345, -73.7645],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_f8a45a4023788d704e98f5a2cf81d256 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee5ac2f610043a69f0eea8a054837c39 = $(`<div id="html_ee5ac2f610043a69f0eea8a054837c39" style="width: 100.0%; height: 100.0%;">Latitude: 42.65345, Longitude: -73.7645, Price: $78.0, Room Type: Entire home/apt</div>`)[0];
+                popup_f8a45a4023788d704e98f5a2cf81d256.setContent(html_ee5ac2f610043a69f0eea8a054837c39);
+            
+        
+
+        marker_85509b990bd2afbfdb27c5309f746323.bindPopup(popup_f8a45a4023788d704e98f5a2cf81d256)
+        ;
+
+        
+    
+    
+            var marker_569aad22a55d77fbe0c136fbf07ba63c = L.marker(
+                [42.65333, -73.77293],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_a18966460a55bd83d8f0f3f568984a54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ea893b01c3e274dab001e442a51c780 = $(`<div id="html_4ea893b01c3e274dab001e442a51c780" style="width: 100.0%; height: 100.0%;">Latitude: 42.65333, Longitude: -73.77293, Price: $100.0, Room Type: Private room</div>`)[0];
+                popup_a18966460a55bd83d8f0f3f568984a54.setContent(html_4ea893b01c3e274dab001e442a51c780);
+            
+        
+
+        marker_569aad22a55d77fbe0c136fbf07ba63c.bindPopup(popup_a18966460a55bd83d8f0f3f568984a54)
+        ;
+
+        
+    
+    
+            var marker_faa242bcabef7b1fd2b124ad4f364344 = L.marker(
+                [42.65403, -73.76325],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_9f761827cd7432446c197710ec3e838c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_650b7b1eba0c329fb3c8616446bb12f5 = $(`<div id="html_650b7b1eba0c329fb3c8616446bb12f5" style="width: 100.0%; height: 100.0%;">Latitude: 42.65403, Longitude: -73.76325, Price: $98.0, Room Type: Entire home/apt</div>`)[0];
+                popup_9f761827cd7432446c197710ec3e838c.setContent(html_650b7b1eba0c329fb3c8616446bb12f5);
+            
+        
+
+        marker_faa242bcabef7b1fd2b124ad4f364344.bindPopup(popup_9f761827cd7432446c197710ec3e838c)
+        ;
+
+        
+    
+    
+            var marker_0dfdcd31e993b600df0e5bc227a9be1e = L.marker(
+                [42.66048, -73.77269],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_4bc17726a2c3a6156d9119c21d433815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_367b324b2c071d05638726c05a718a03 = $(`<div id="html_367b324b2c071d05638726c05a718a03" style="width: 100.0%; height: 100.0%;">Latitude: 42.66048, Longitude: -73.77269, Price: $321.0, Room Type: Entire home/apt</div>`)[0];
+                popup_4bc17726a2c3a6156d9119c21d433815.setContent(html_367b324b2c071d05638726c05a718a03);
+            
+        
+
+        marker_0dfdcd31e993b600df0e5bc227a9be1e.bindPopup(popup_4bc17726a2c3a6156d9119c21d433815)
+        ;
+
+        
+    
+    
+            var marker_e81085695581a961cecdf9313201c42f = L.marker(
+                [42.6543083190918, -73.78177642822266],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_dd746af0f6f8f624826697e2ab868db7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a079ab2c4899e1db7ae3b4ad39e2699f = $(`<div id="html_a079ab2c4899e1db7ae3b4ad39e2699f" style="width: 100.0%; height: 100.0%;">Latitude: 42.6543083190918, Longitude: -73.78177642822266, Price: $60.0, Room Type: Private room</div>`)[0];
+                popup_dd746af0f6f8f624826697e2ab868db7.setContent(html_a079ab2c4899e1db7ae3b4ad39e2699f);
+            
+        
+
+        marker_e81085695581a961cecdf9313201c42f.bindPopup(popup_dd746af0f6f8f624826697e2ab868db7)
+        ;
+
+        
+    
+    
+            var marker_35003253c2cc6e547c80be33072c269d = L.marker(
+                [42.64514, -73.80668],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_335051a9e1418b181c785dd4b95d872f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b3e2cfea2b523e744fa09a980f2650b = $(`<div id="html_6b3e2cfea2b523e744fa09a980f2650b" style="width: 100.0%; height: 100.0%;">Latitude: 42.64514, Longitude: -73.80668, Price: $195.0, Room Type: Entire home/apt</div>`)[0];
+                popup_335051a9e1418b181c785dd4b95d872f.setContent(html_6b3e2cfea2b523e744fa09a980f2650b);
+            
+        
+
+        marker_35003253c2cc6e547c80be33072c269d.bindPopup(popup_335051a9e1418b181c785dd4b95d872f)
+        ;
+
+        
+    
+    
+            var marker_0fa5ef6d0b66e02e515bbb9d88714e3f = L.marker(
+                [42.65178, -73.78711],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_1aff1f5556dad4f53b6bd7283a30da72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_523619fab44e57d770c8470822c8a50a = $(`<div id="html_523619fab44e57d770c8470822c8a50a" style="width: 100.0%; height: 100.0%;">Latitude: 42.65178, Longitude: -73.78711, Price: $225.0, Room Type: Entire home/apt</div>`)[0];
+                popup_1aff1f5556dad4f53b6bd7283a30da72.setContent(html_523619fab44e57d770c8470822c8a50a);
+            
+        
+
+        marker_0fa5ef6d0b66e02e515bbb9d88714e3f.bindPopup(popup_1aff1f5556dad4f53b6bd7283a30da72)
+        ;
+
+        
+    
+    
+            var marker_eb68eef3f09445bd6137a1c87c9e057a = L.marker(
+                [42.65821, -73.76917],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_6363bcecbb900d9590a10409d2379b58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79c3455b9162e69349f4a881d4306818 = $(`<div id="html_79c3455b9162e69349f4a881d4306818" style="width: 100.0%; height: 100.0%;">Latitude: 42.65821, Longitude: -73.76917, Price: $75.0, Room Type: Private room</div>`)[0];
+                popup_6363bcecbb900d9590a10409d2379b58.setContent(html_79c3455b9162e69349f4a881d4306818);
+            
+        
+
+        marker_eb68eef3f09445bd6137a1c87c9e057a.bindPopup(popup_6363bcecbb900d9590a10409d2379b58)
+        ;
+
+        
+    
+    
+            var marker_eab925b474c01938814bdc189da656f1 = L.marker(
+                [42.65464, -73.78348],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_4ce091f97566d12ab9504d2e52a46429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41ff2aeff8e82de7646d74c8d3eadf58 = $(`<div id="html_41ff2aeff8e82de7646d74c8d3eadf58" style="width: 100.0%; height: 100.0%;">Latitude: 42.65464, Longitude: -73.78348, Price: $50.0, Room Type: Private room</div>`)[0];
+                popup_4ce091f97566d12ab9504d2e52a46429.setContent(html_41ff2aeff8e82de7646d74c8d3eadf58);
+            
+        
+
+        marker_eab925b474c01938814bdc189da656f1.bindPopup(popup_4ce091f97566d12ab9504d2e52a46429)
+        ;
+
+        
+    
+    
+            var marker_2eef514c973ec9cb265dba693d733f4a = L.marker(
+                [42.65746, -73.77904],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_0d7d8bdea38061bbeb5fb1930e6184c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e6738dbd8d066a041abcd05c6e0401 = $(`<div id="html_08e6738dbd8d066a041abcd05c6e0401" style="width: 100.0%; height: 100.0%;">Latitude: 42.65746, Longitude: -73.77904, Price: $56.0, Room Type: Private room</div>`)[0];
+                popup_0d7d8bdea38061bbeb5fb1930e6184c3.setContent(html_08e6738dbd8d066a041abcd05c6e0401);
+            
+        
+
+        marker_2eef514c973ec9cb265dba693d733f4a.bindPopup(popup_0d7d8bdea38061bbeb5fb1930e6184c3)
+        ;
+
+        
+    
+    
+            var marker_8514e3bd30e1825a3c09dae001fb002e = L.marker(
+                [42.64535, -73.75365],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_dd50d4c8c97bba006663c514542acd0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ae37bfd28e90e41f2cf3f3b5b83d8b2 = $(`<div id="html_5ae37bfd28e90e41f2cf3f3b5b83d8b2" style="width: 100.0%; height: 100.0%;">Latitude: 42.64535, Longitude: -73.75365, Price: $98.0, Room Type: Entire home/apt</div>`)[0];
+                popup_dd50d4c8c97bba006663c514542acd0c.setContent(html_5ae37bfd28e90e41f2cf3f3b5b83d8b2);
+            
+        
+
+        marker_8514e3bd30e1825a3c09dae001fb002e.bindPopup(popup_dd50d4c8c97bba006663c514542acd0c)
+        ;
+
+        
+    
+    
+            var marker_15fab403e67960b5286aa7d834eb9464 = L.marker(
+                [42.64535, -73.75365],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e897be44544e356d95e6eba636b8cc19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95976d35e6774bcde199682c821b76c9 = $(`<div id="html_95976d35e6774bcde199682c821b76c9" style="width: 100.0%; height: 100.0%;">Latitude: 42.64535, Longitude: -73.75365, Price: $77.0, Room Type: Entire home/apt</div>`)[0];
+                popup_e897be44544e356d95e6eba636b8cc19.setContent(html_95976d35e6774bcde199682c821b76c9);
+            
+        
+
+        marker_15fab403e67960b5286aa7d834eb9464.bindPopup(popup_e897be44544e356d95e6eba636b8cc19)
+        ;
+
+        
+    
+    
+            var marker_e5ed0cc3f2b904dbfc9c6bb77f3ca2c7 = L.marker(
+                [42.6737, -73.75313],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_95ef98ff7a61dc1b2e999d4c9125de7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69ff7b20fb9b43d36013dd2b6c9a86f6 = $(`<div id="html_69ff7b20fb9b43d36013dd2b6c9a86f6" style="width: 100.0%; height: 100.0%;">Latitude: 42.6737, Longitude: -73.75313, Price: $95.0, Room Type: Private room</div>`)[0];
+                popup_95ef98ff7a61dc1b2e999d4c9125de7b.setContent(html_69ff7b20fb9b43d36013dd2b6c9a86f6);
+            
+        
+
+        marker_e5ed0cc3f2b904dbfc9c6bb77f3ca2c7.bindPopup(popup_95ef98ff7a61dc1b2e999d4c9125de7b)
+        ;
+
+        
+    
+    
+            var marker_2aee6096cae505ed2177b25ec68906e2 = L.marker(
+                [42.65235, -73.76714],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_4ae1837af3ef18faf2b34d9ebb7585b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0df55c3eb46a3bd99d6afcf5a33e809 = $(`<div id="html_e0df55c3eb46a3bd99d6afcf5a33e809" style="width: 100.0%; height: 100.0%;">Latitude: 42.65235, Longitude: -73.76714, Price: $120.0, Room Type: Entire home/apt</div>`)[0];
+                popup_4ae1837af3ef18faf2b34d9ebb7585b2.setContent(html_e0df55c3eb46a3bd99d6afcf5a33e809);
+            
+        
+
+        marker_2aee6096cae505ed2177b25ec68906e2.bindPopup(popup_4ae1837af3ef18faf2b34d9ebb7585b2)
+        ;
+
+        
+    
+    
+            var marker_a687c3f44fca2c33004a26bf4cc89891 = L.marker(
+                [42.6533, -73.78114],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_fc0d01595c7ed5e475c0b445dee546bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28d3245604f9da88c801a7d52d53e8be = $(`<div id="html_28d3245604f9da88c801a7d52d53e8be" style="width: 100.0%; height: 100.0%;">Latitude: 42.6533, Longitude: -73.78114, Price: $62.0, Room Type: Private room</div>`)[0];
+                popup_fc0d01595c7ed5e475c0b445dee546bf.setContent(html_28d3245604f9da88c801a7d52d53e8be);
+            
+        
+
+        marker_a687c3f44fca2c33004a26bf4cc89891.bindPopup(popup_fc0d01595c7ed5e475c0b445dee546bf)
+        ;
+
+        
+    
+    
+            var marker_34ba03474fd162138448230b5aed9e7d = L.marker(
+                [42.64936, -73.80278],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_7836cecf8336fb2c54776fb74eb8099f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fecc07d294aafb8536cbfc808b9e5ae = $(`<div id="html_5fecc07d294aafb8536cbfc808b9e5ae" style="width: 100.0%; height: 100.0%;">Latitude: 42.64936, Longitude: -73.80278, Price: $55.0, Room Type: Private room</div>`)[0];
+                popup_7836cecf8336fb2c54776fb74eb8099f.setContent(html_5fecc07d294aafb8536cbfc808b9e5ae);
+            
+        
+
+        marker_34ba03474fd162138448230b5aed9e7d.bindPopup(popup_7836cecf8336fb2c54776fb74eb8099f)
+        ;
+
+        
+    
+    
+            var marker_214841142cd5159488de78daed23ce9a = L.marker(
+                [42.6761, -73.73825],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_a741c17ec0bb86a715ccd37c3ddaed9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_671cb1c501f4a6c9f7e2d14c91b67974 = $(`<div id="html_671cb1c501f4a6c9f7e2d14c91b67974" style="width: 100.0%; height: 100.0%;">Latitude: 42.6761, Longitude: -73.73825, Price: $122.0, Room Type: Private room</div>`)[0];
+                popup_a741c17ec0bb86a715ccd37c3ddaed9a.setContent(html_671cb1c501f4a6c9f7e2d14c91b67974);
+            
+        
+
+        marker_214841142cd5159488de78daed23ce9a.bindPopup(popup_a741c17ec0bb86a715ccd37c3ddaed9a)
+        ;
+
+        
+    
+    
+            var marker_93bd24ca12204ce09a67479af802ea58 = L.marker(
+                [42.64585, -73.75297],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_dd10ddfb1fdf458c103bbeee426bf5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_352299653507d33c2e8984ab434dd50c = $(`<div id="html_352299653507d33c2e8984ab434dd50c" style="width: 100.0%; height: 100.0%;">Latitude: 42.64585, Longitude: -73.75297, Price: $92.0, Room Type: Entire home/apt</div>`)[0];
+                popup_dd10ddfb1fdf458c103bbeee426bf5e3.setContent(html_352299653507d33c2e8984ab434dd50c);
+            
+        
+
+        marker_93bd24ca12204ce09a67479af802ea58.bindPopup(popup_dd10ddfb1fdf458c103bbeee426bf5e3)
+        ;
+
+        
+    
+    
+            var marker_36276f37fadc4f617c78c8c54aa201a6 = L.marker(
+                [42.64335, -73.7579],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_89007b37e28f03993867ede95abcfa74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d52a744ff7fc17b6658f9204b3d6b640 = $(`<div id="html_d52a744ff7fc17b6658f9204b3d6b640" style="width: 100.0%; height: 100.0%;">Latitude: 42.64335, Longitude: -73.7579, Price: $144.0, Room Type: Entire home/apt</div>`)[0];
+                popup_89007b37e28f03993867ede95abcfa74.setContent(html_d52a744ff7fc17b6658f9204b3d6b640);
+            
+        
+
+        marker_36276f37fadc4f617c78c8c54aa201a6.bindPopup(popup_89007b37e28f03993867ede95abcfa74)
+        ;
+
+        
+    
+    
+            var marker_5cc204784f01562871aa144ae26df84f = L.marker(
+                [42.65781, -73.76856],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_9e7d6020e6dc8f1f1da6fee1ff71eda7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0758f10ab47083808a47f25c5d3f4812 = $(`<div id="html_0758f10ab47083808a47f25c5d3f4812" style="width: 100.0%; height: 100.0%;">Latitude: 42.65781, Longitude: -73.76856, Price: $51.0, Room Type: Entire home/apt</div>`)[0];
+                popup_9e7d6020e6dc8f1f1da6fee1ff71eda7.setContent(html_0758f10ab47083808a47f25c5d3f4812);
+            
+        
+
+        marker_5cc204784f01562871aa144ae26df84f.bindPopup(popup_9e7d6020e6dc8f1f1da6fee1ff71eda7)
+        ;
+
+        
+    
+    
+            var marker_47ef404815f8aaebef4cedd90d1036c1 = L.marker(
+                [42.65259, -73.78223],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_c1323c18a1c0da2e533a128a6df85d71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54001f5042d9f70f5f9147c1d4d6321d = $(`<div id="html_54001f5042d9f70f5f9147c1d4d6321d" style="width: 100.0%; height: 100.0%;">Latitude: 42.65259, Longitude: -73.78223, Price: $50.0, Room Type: Private room</div>`)[0];
+                popup_c1323c18a1c0da2e533a128a6df85d71.setContent(html_54001f5042d9f70f5f9147c1d4d6321d);
+            
+        
+
+        marker_47ef404815f8aaebef4cedd90d1036c1.bindPopup(popup_c1323c18a1c0da2e533a128a6df85d71)
+        ;
+
+        
+    
+    
+            var marker_fbfe4efa69214374be3b4eb90b9f8092 = L.marker(
+                [42.64506, -73.75727],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e3981469d083f229407769d348ed583c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6af9f4bf5f128c33f96c1ce804cb5e56 = $(`<div id="html_6af9f4bf5f128c33f96c1ce804cb5e56" style="width: 100.0%; height: 100.0%;">Latitude: 42.64506, Longitude: -73.75727, Price: $104.0, Room Type: Entire home/apt</div>`)[0];
+                popup_e3981469d083f229407769d348ed583c.setContent(html_6af9f4bf5f128c33f96c1ce804cb5e56);
+            
+        
+
+        marker_fbfe4efa69214374be3b4eb90b9f8092.bindPopup(popup_e3981469d083f229407769d348ed583c)
+        ;
+
+        
+    
+    
+            var marker_0dc60d9f81105314971bd5e46e0e593a = L.marker(
+                [42.66619, -73.79031],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_8e4b47f9eaaaa4774209756150d87d6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d4e998126fb870e0da9865c1ca81f3c = $(`<div id="html_6d4e998126fb870e0da9865c1ca81f3c" style="width: 100.0%; height: 100.0%;">Latitude: 42.66619, Longitude: -73.79031, Price: $110.0, Room Type: Entire home/apt</div>`)[0];
+                popup_8e4b47f9eaaaa4774209756150d87d6a.setContent(html_6d4e998126fb870e0da9865c1ca81f3c);
+            
+        
+
+        marker_0dc60d9f81105314971bd5e46e0e593a.bindPopup(popup_8e4b47f9eaaaa4774209756150d87d6a)
+        ;
+
+        
+    
+    
+            var marker_f7691d906f80795219ef1d34036f1507 = L.marker(
+                [42.65085, -73.80239],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_5e90a0ba8e80ed2862a65fc1b9b108b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0f287941c2d32f3c1e7b609a5ec2ac4 = $(`<div id="html_d0f287941c2d32f3c1e7b609a5ec2ac4" style="width: 100.0%; height: 100.0%;">Latitude: 42.65085, Longitude: -73.80239, Price: $55.0, Room Type: Private room</div>`)[0];
+                popup_5e90a0ba8e80ed2862a65fc1b9b108b5.setContent(html_d0f287941c2d32f3c1e7b609a5ec2ac4);
+            
+        
+
+        marker_f7691d906f80795219ef1d34036f1507.bindPopup(popup_5e90a0ba8e80ed2862a65fc1b9b108b5)
+        ;
+
+        
+    
+    
+            var marker_ab90e2e392f222a55e26de34ae68aa58 = L.marker(
+                [42.65921, -73.76843],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_aef767d0fe5a46ddd9a35c621a720a57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a15fc0f0dbefa0303e87373cd7090ec5 = $(`<div id="html_a15fc0f0dbefa0303e87373cd7090ec5" style="width: 100.0%; height: 100.0%;">Latitude: 42.65921, Longitude: -73.76843, Price: $46.0, Room Type: Entire home/apt</div>`)[0];
+                popup_aef767d0fe5a46ddd9a35c621a720a57.setContent(html_a15fc0f0dbefa0303e87373cd7090ec5);
+            
+        
+
+        marker_ab90e2e392f222a55e26de34ae68aa58.bindPopup(popup_aef767d0fe5a46ddd9a35c621a720a57)
+        ;
+
+        
+    
+    
+            var marker_cdc410007b98c7a15a77f9ed07308817 = L.marker(
+                [42.65507, -73.76138],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_9b5ddbb1f4e14981d0235bea0cc0b387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b358867e62e77bc0f7c2733385a25385 = $(`<div id="html_b358867e62e77bc0f7c2733385a25385" style="width: 100.0%; height: 100.0%;">Latitude: 42.65507, Longitude: -73.76138, Price: $151.0, Room Type: Entire home/apt</div>`)[0];
+                popup_9b5ddbb1f4e14981d0235bea0cc0b387.setContent(html_b358867e62e77bc0f7c2733385a25385);
+            
+        
+
+        marker_cdc410007b98c7a15a77f9ed07308817.bindPopup(popup_9b5ddbb1f4e14981d0235bea0cc0b387)
+        ;
+
+        
+    
+    
+            var marker_14bea05f8e4ceaf72db3bafe9e651bd5 = L.marker(
+                [42.65483, -73.78033],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_04ebf949c5d43d1d6959a9aa3b522704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15f4e8b53d6e7711f48a11b3a508fc90 = $(`<div id="html_15f4e8b53d6e7711f48a11b3a508fc90" style="width: 100.0%; height: 100.0%;">Latitude: 42.65483, Longitude: -73.78033, Price: $86.0, Room Type: Entire home/apt</div>`)[0];
+                popup_04ebf949c5d43d1d6959a9aa3b522704.setContent(html_15f4e8b53d6e7711f48a11b3a508fc90);
+            
+        
+
+        marker_14bea05f8e4ceaf72db3bafe9e651bd5.bindPopup(popup_04ebf949c5d43d1d6959a9aa3b522704)
+        ;
+
+        
+    
+    
+            var marker_291b7e0a4a5615637ed5fc011001fe65 = L.marker(
+                [42.65547, -73.7651],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_53fbcb7d9a9324ef7c149bf7f73786ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a085edbcb29dd282c5bfd88e42b2f70 = $(`<div id="html_2a085edbcb29dd282c5bfd88e42b2f70" style="width: 100.0%; height: 100.0%;">Latitude: 42.65547, Longitude: -73.7651, Price: $78.0, Room Type: Entire home/apt</div>`)[0];
+                popup_53fbcb7d9a9324ef7c149bf7f73786ce.setContent(html_2a085edbcb29dd282c5bfd88e42b2f70);
+            
+        
+
+        marker_291b7e0a4a5615637ed5fc011001fe65.bindPopup(popup_53fbcb7d9a9324ef7c149bf7f73786ce)
+        ;
+
+        
+    
+    
+            var marker_c272ff4396d0f1e0a4d443bda278c6f9 = L.marker(
+                [42.66091, -73.74285],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_97f4aca9f651aba89e843a2f9ca50225 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b70b5240dd38f61d5a564e31a2b04b40 = $(`<div id="html_b70b5240dd38f61d5a564e31a2b04b40" style="width: 100.0%; height: 100.0%;">Latitude: 42.66091, Longitude: -73.74285, Price: $217.0, Room Type: Entire home/apt</div>`)[0];
+                popup_97f4aca9f651aba89e843a2f9ca50225.setContent(html_b70b5240dd38f61d5a564e31a2b04b40);
+            
+        
+
+        marker_c272ff4396d0f1e0a4d443bda278c6f9.bindPopup(popup_97f4aca9f651aba89e843a2f9ca50225)
+        ;
+
+        
+    
+    
+            var marker_6e0b7e022927090dcfd4626167c088ff = L.marker(
+                [42.65682, -73.76298],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_3f0df719063d399d4eee3370027a1bea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_173f4992bc53850c24764fc0e23524b0 = $(`<div id="html_173f4992bc53850c24764fc0e23524b0" style="width: 100.0%; height: 100.0%;">Latitude: 42.65682, Longitude: -73.76298, Price: $78.0, Room Type: Entire home/apt</div>`)[0];
+                popup_3f0df719063d399d4eee3370027a1bea.setContent(html_173f4992bc53850c24764fc0e23524b0);
+            
+        
+
+        marker_6e0b7e022927090dcfd4626167c088ff.bindPopup(popup_3f0df719063d399d4eee3370027a1bea)
+        ;
+
+        
+    
+    
+            var marker_5580331cd7d538e6590b10175196ffdb = L.marker(
+                [42.66827, -73.79231],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_878e397c4fcd582f36855744cb7c812f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d2295ca2a6634bb61ebf5d2c375554f = $(`<div id="html_3d2295ca2a6634bb61ebf5d2c375554f" style="width: 100.0%; height: 100.0%;">Latitude: 42.66827, Longitude: -73.79231, Price: $99.0, Room Type: Entire home/apt</div>`)[0];
+                popup_878e397c4fcd582f36855744cb7c812f.setContent(html_3d2295ca2a6634bb61ebf5d2c375554f);
+            
+        
+
+        marker_5580331cd7d538e6590b10175196ffdb.bindPopup(popup_878e397c4fcd582f36855744cb7c812f)
+        ;
+
+        
+    
+    
+            var marker_2357b5bdd1fee3e3da8b2f0d36c86ef1 = L.marker(
+                [42.67773, -73.73899],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_7ab448a96cc2e67a3c139182b4b73faa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53bd890fc32fc26a9aa1203c8cdd1411 = $(`<div id="html_53bd890fc32fc26a9aa1203c8cdd1411" style="width: 100.0%; height: 100.0%;">Latitude: 42.67773, Longitude: -73.73899, Price: $92.0, Room Type: Entire home/apt</div>`)[0];
+                popup_7ab448a96cc2e67a3c139182b4b73faa.setContent(html_53bd890fc32fc26a9aa1203c8cdd1411);
+            
+        
+
+        marker_2357b5bdd1fee3e3da8b2f0d36c86ef1.bindPopup(popup_7ab448a96cc2e67a3c139182b4b73faa)
+        ;
+
+        
+    
+    
+            var marker_ea460bc0f18687fe060ceec1a3013720 = L.marker(
+                [42.65592, -73.76259],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_e79f3e5599587bc371942c61d9fd55e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12e1c20fdfc5278bee70863c4a6cea38 = $(`<div id="html_12e1c20fdfc5278bee70863c4a6cea38" style="width: 100.0%; height: 100.0%;">Latitude: 42.65592, Longitude: -73.76259, Price: $124.0, Room Type: Entire home/apt</div>`)[0];
+                popup_e79f3e5599587bc371942c61d9fd55e3.setContent(html_12e1c20fdfc5278bee70863c4a6cea38);
+            
+        
+
+        marker_ea460bc0f18687fe060ceec1a3013720.bindPopup(popup_e79f3e5599587bc371942c61d9fd55e3)
+        ;
+
+        
+    
+    
+            var marker_5272920fcf4cb5e40fde57bdc38f10e7 = L.marker(
+                [42.65115, -73.7668],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_533f15837828293a11209cd17ec5db2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5391391b70659c33645c77a4a11d7066 = $(`<div id="html_5391391b70659c33645c77a4a11d7066" style="width: 100.0%; height: 100.0%;">Latitude: 42.65115, Longitude: -73.7668, Price: $92.0, Room Type: Entire home/apt</div>`)[0];
+                popup_533f15837828293a11209cd17ec5db2e.setContent(html_5391391b70659c33645c77a4a11d7066);
+            
+        
+
+        marker_5272920fcf4cb5e40fde57bdc38f10e7.bindPopup(popup_533f15837828293a11209cd17ec5db2e)
+        ;
+
+        
+    
+    
+            var marker_47ec4311a7412d99224011b44b128e7d = L.marker(
+                [42.65315, -73.76202],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_908abff591edd06eedb995a12bab14f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5619bae112c710b4bc28c6a0d167bbe0 = $(`<div id="html_5619bae112c710b4bc28c6a0d167bbe0" style="width: 100.0%; height: 100.0%;">Latitude: 42.65315, Longitude: -73.76202, Price: $110.0, Room Type: Entire home/apt</div>`)[0];
+                popup_908abff591edd06eedb995a12bab14f5.setContent(html_5619bae112c710b4bc28c6a0d167bbe0);
+            
+        
+
+        marker_47ec4311a7412d99224011b44b128e7d.bindPopup(popup_908abff591edd06eedb995a12bab14f5)
+        ;
+
+        
+    
+    
+            var marker_12578e2b3008c0a95047d91709410ce5 = L.marker(
+                [42.66403, -73.81446],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_dbc750585653c81951fb7d5a189f67a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a40514204c2b0cdb713fb4bb010cca5 = $(`<div id="html_7a40514204c2b0cdb713fb4bb010cca5" style="width: 100.0%; height: 100.0%;">Latitude: 42.66403, Longitude: -73.81446, Price: $46.0, Room Type: Private room</div>`)[0];
+                popup_dbc750585653c81951fb7d5a189f67a2.setContent(html_7a40514204c2b0cdb713fb4bb010cca5);
+            
+        
+
+        marker_12578e2b3008c0a95047d91709410ce5.bindPopup(popup_dbc750585653c81951fb7d5a189f67a2)
+        ;
+
+        
+    
+    
+            var marker_af57b452a3d9b13d9c6123f5b912b824 = L.marker(
+                [42.6557, -73.75085],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_b2139b28fda2911cc13445130838afa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f8e187d1c95614a2f671b6c73a386dc = $(`<div id="html_7f8e187d1c95614a2f671b6c73a386dc" style="width: 100.0%; height: 100.0%;">Latitude: 42.6557, Longitude: -73.75085, Price: $91.0, Room Type: Entire home/apt</div>`)[0];
+                popup_b2139b28fda2911cc13445130838afa2.setContent(html_7f8e187d1c95614a2f671b6c73a386dc);
+            
+        
+
+        marker_af57b452a3d9b13d9c6123f5b912b824.bindPopup(popup_b2139b28fda2911cc13445130838afa2)
+        ;
+
+        
+    
+    
+            var marker_1e5bbbaa7165a39b031b5a1ff0816f90 = L.marker(
+                [42.6469, -73.75761],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_d6bb5a55d87be735096e896554405d41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ad1a05d18eb9cf1958189814f2842f = $(`<div id="html_60ad1a05d18eb9cf1958189814f2842f" style="width: 100.0%; height: 100.0%;">Latitude: 42.6469, Longitude: -73.75761, Price: $178.0, Room Type: Entire home/apt</div>`)[0];
+                popup_d6bb5a55d87be735096e896554405d41.setContent(html_60ad1a05d18eb9cf1958189814f2842f);
+            
+        
+
+        marker_1e5bbbaa7165a39b031b5a1ff0816f90.bindPopup(popup_d6bb5a55d87be735096e896554405d41)
+        ;
+
+        
+    
+    
+            var marker_b1284a9102aa85962e2986efa7b03626 = L.marker(
+                [42.65567, -73.7854],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_5086816e23a077e551ad445be23f84be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05f5281e8d9f72c6286affb17c57aa3 = $(`<div id="html_d05f5281e8d9f72c6286affb17c57aa3" style="width: 100.0%; height: 100.0%;">Latitude: 42.65567, Longitude: -73.7854, Price: $200.0, Room Type: Entire home/apt</div>`)[0];
+                popup_5086816e23a077e551ad445be23f84be.setContent(html_d05f5281e8d9f72c6286affb17c57aa3);
+            
+        
+
+        marker_b1284a9102aa85962e2986efa7b03626.bindPopup(popup_5086816e23a077e551ad445be23f84be)
+        ;
+
+        
+    
+    
+            var marker_2bdbe85355aa8d52fb3b4bc4346b0361 = L.marker(
+                [42.63876, -73.78535],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_029fa1dbcda985acdbafcdaad09dc29f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f79ede1ee3d0186dd9910bdf17210048 = $(`<div id="html_f79ede1ee3d0186dd9910bdf17210048" style="width: 100.0%; height: 100.0%;">Latitude: 42.63876, Longitude: -73.78535, Price: $202.0, Room Type: Entire home/apt</div>`)[0];
+                popup_029fa1dbcda985acdbafcdaad09dc29f.setContent(html_f79ede1ee3d0186dd9910bdf17210048);
+            
+        
+
+        marker_2bdbe85355aa8d52fb3b4bc4346b0361.bindPopup(popup_029fa1dbcda985acdbafcdaad09dc29f)
+        ;
+
+        
+    
+    
+            var marker_c5f897e6671373cecbbd58b7c9315e67 = L.marker(
+                [42.64453, -73.75426],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_1e29c51eb479946d67cf75b4c61462d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13a814fda74127b2b71865ca87d16377 = $(`<div id="html_13a814fda74127b2b71865ca87d16377" style="width: 100.0%; height: 100.0%;">Latitude: 42.64453, Longitude: -73.75426, Price: $115.0, Room Type: Entire home/apt</div>`)[0];
+                popup_1e29c51eb479946d67cf75b4c61462d4.setContent(html_13a814fda74127b2b71865ca87d16377);
+            
+        
+
+        marker_c5f897e6671373cecbbd58b7c9315e67.bindPopup(popup_1e29c51eb479946d67cf75b4c61462d4)
+        ;
+
+        
+    
+    
+            var marker_6201f3e8678a0538cd2942cd787905f7 = L.marker(
+                [42.65746, -73.74932],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_c4f960d9305d4ce7cb595fa944e4a4aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be144c1a816211a1af797329c13719a5 = $(`<div id="html_be144c1a816211a1af797329c13719a5" style="width: 100.0%; height: 100.0%;">Latitude: 42.65746, Longitude: -73.74932, Price: $76.0, Room Type: Entire home/apt</div>`)[0];
+                popup_c4f960d9305d4ce7cb595fa944e4a4aa.setContent(html_be144c1a816211a1af797329c13719a5);
+            
+        
+
+        marker_6201f3e8678a0538cd2942cd787905f7.bindPopup(popup_c4f960d9305d4ce7cb595fa944e4a4aa)
+        ;
+
+        
+    
+    
+            var marker_9e3ce2b661baa342448b1ca241e7b353 = L.marker(
+                [42.65556, -73.76205],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_0ebcbc8fcec1eb849ae41c18a7e44823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_211b2ef16d7ddf61af567993a63590ea = $(`<div id="html_211b2ef16d7ddf61af567993a63590ea" style="width: 100.0%; height: 100.0%;">Latitude: 42.65556, Longitude: -73.76205, Price: $175.0, Room Type: Entire home/apt</div>`)[0];
+                popup_0ebcbc8fcec1eb849ae41c18a7e44823.setContent(html_211b2ef16d7ddf61af567993a63590ea);
+            
+        
+
+        marker_9e3ce2b661baa342448b1ca241e7b353.bindPopup(popup_0ebcbc8fcec1eb849ae41c18a7e44823)
+        ;
+
+        
+    
+    
+            var marker_cc7c84ec2a93f5583651571e7b39dd1d = L.marker(
+                [42.66257, -73.78281],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_60133b7f2dcd73182db0a9b41cb21ac1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe5d03ed162a8a8e2fdbeea2b2ee51f2 = $(`<div id="html_fe5d03ed162a8a8e2fdbeea2b2ee51f2" style="width: 100.0%; height: 100.0%;">Latitude: 42.66257, Longitude: -73.78281, Price: $153.0, Room Type: Entire home/apt</div>`)[0];
+                popup_60133b7f2dcd73182db0a9b41cb21ac1.setContent(html_fe5d03ed162a8a8e2fdbeea2b2ee51f2);
+            
+        
+
+        marker_cc7c84ec2a93f5583651571e7b39dd1d.bindPopup(popup_60133b7f2dcd73182db0a9b41cb21ac1)
+        ;
+
+        
+    
+    
+            var marker_4b4e0e950de91910f843f71e07362aa1 = L.marker(
+                [42.64383, -73.78926],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_55997728e3fc9302a3046cf21430a5e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_522570f6185fd3a2875327cc6368970c = $(`<div id="html_522570f6185fd3a2875327cc6368970c" style="width: 100.0%; height: 100.0%;">Latitude: 42.64383, Longitude: -73.78926, Price: $245.0, Room Type: Entire home/apt</div>`)[0];
+                popup_55997728e3fc9302a3046cf21430a5e0.setContent(html_522570f6185fd3a2875327cc6368970c);
+            
+        
+
+        marker_4b4e0e950de91910f843f71e07362aa1.bindPopup(popup_55997728e3fc9302a3046cf21430a5e0)
+        ;
+
+        
+    
+    
+            var marker_469029d0699bca55fb5a66aedaa3de14 = L.marker(
+                [42.65935, -73.76805],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_8e73c15877b82ce89844d28f94697618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94fbc3089c2dee3ab7af84a3cf4e43c0 = $(`<div id="html_94fbc3089c2dee3ab7af84a3cf4e43c0" style="width: 100.0%; height: 100.0%;">Latitude: 42.65935, Longitude: -73.76805, Price: $123.0, Room Type: Entire home/apt</div>`)[0];
+                popup_8e73c15877b82ce89844d28f94697618.setContent(html_94fbc3089c2dee3ab7af84a3cf4e43c0);
+            
+        
+
+        marker_469029d0699bca55fb5a66aedaa3de14.bindPopup(popup_8e73c15877b82ce89844d28f94697618)
+        ;
+
+        
+    
+    
+            var marker_32a636a26bc050f45b634283c6075ede = L.marker(
+                [42.66006, -73.76966],
+                {}
+            ).addTo(map_a47076e16f24021306f096f9df32a5d2);
+        
+    
+        var popup_85f35ad90d390a57150c9682044b5a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e6fe0731f853e74023166ad034e3de2 = $(`<div id="html_6e6fe0731f853e74023166ad034e3de2" style="width: 100.0%; height: 100.0%;">Latitude: 42.66006, Longitude: -73.76966, Price: $124.0, Room Type: Entire home/apt</div>`)[0];
+                popup_85f35ad90d390a57150c9682044b5a14.setContent(html_6e6fe0731f853e74023166ad034e3de2);
+            
+        
+
+        marker_32a636a26bc050f45b634283c6075ede.bindPopup(popup_85f35ad90d390a57150c9682044b5a14)
+        ;
+
+        
+    
+</script>
+</html>
